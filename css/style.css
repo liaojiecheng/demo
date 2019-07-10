@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #EDEDED;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+.center-img {
+	width: 100%;
+}
+/*头部*/
+.header {
+	width: 980px;
+	height: 86px;
+	line-height: 86px;
+	border-bottom: 2px solid #D1D1D1;
+}
+
+.title {
+	font-size: 30px;
+	font-family: "微软雅黑";
+	text-align: center;
+	color: #A7A6A5;
+}
+
+.title > .subtitle {
+	font-size: 14px;
+}
+
+/*分类*/
+.classify {
+	width: 980px;
+	margin: 7px auto;
+}
+
+.classify-title {
+	font-size: 14px;
+	height: 42px;
+	line-height: 42px;
+	color: #ACA6A7;
+}
+
+.slogan {
+	font-size: 18px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-family: "KaiTi";
+	color: #A6A6A6;
+}
+
+/*热卖*/
+
+.hot {
+	width: 602px;
+	margin: 10 auto;
+}
+
+.hot-img {
+	margin: 10px 0;
+}
+
+.hot-text {
+	font-size: 16px;
+	font-family: "KaiTi";
+	color: #A5A5A5;
+	line-height: 30px;
+	text-indent: 2em;
+} 
+.hot-text > span {
+	text-decoration: underline;
+}
+
+/*页脚*/
+.footer {
+	width: 602px;
+}
+
+.footer-text {
+	font-size: 16px;
+	font-style: bold;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	color: #A6A6A6;
+}
+
+.seller {
+	display: flex;
+	margin: 10px 0 45px 0;
+}
+
+.seller-icon {
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-right: 30px;
+}
+
+.seller-msg {
+	/*padding-left: 30px; */
+	float: left
+	flex: 1;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #A6A6A6;
+}
+
+.seller-slogan {
+	font-size: 14px;
+	font-style: italic;
+	font-family: "KaiTi";
+}
